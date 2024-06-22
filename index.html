@@ -5,821 +5,296 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="https://alfaroukroute.github.io/Daniels/img/favicon.ico" type="image/x-icon">
-  <title>Daniels</title>
+  <link rel="shortcut icon" href="images/pink.webp" type="image/x-icon">
+  <title>MyPortfolio</title>
 
   <!---======= font ///////   ===========-->
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
+
   <!---======= link bootstrap ===========-->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <!---======= link fontawesome ===========-->
   <link rel="stylesheet" href="css/all.min.css">
+
+  <!---======= animate ===========-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!---======= link css stylesheet ===========-->
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+<body>
+  <!--================START NAV BAR======================-->
 
-
-
-
-
-  <!---============+++ START HOME SECTION +++ ===========-->
-  <header class="min-vh-100 home" id="home">
-    <div class="container ">
-      <!---============+++ START NAVBAR +++ ===========-->
-      <div class=" bar pt-3 position-absolute position-fixed start-0 top-0 end-0">
-        <div class="stnav">
-          <nav class="navbar navbar-expand-lg " id="navbar-example">
-            <div class="container">
-              <a class="navbar-brand fw-bold " href="#">Daniels</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars barsicon"></i>
-                <!-- <span class="navbar-toggler-icon "></span> -->
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar  fw-semibold  " style="--bs-scroll-height: 100px;">
-                  <li class="nav-item m-2 ">
-                    <a class="nav-link active text-capitalize  line linhome position-relative " aria-current="page"
-                      href="#home">Home</a>
-                  </li>
-                  <li class="nav-item m-2">
-                    <a class="nav-link text-capitalize line linabout position-relative" href="#about">about</a>
-                  </li>
-                  <li class="nav-item m-2">
-                    <a class="nav-link text-capitalize line linservices position-relative" href="#services">services</a>
-                  </li>
-                  <li class="nav-item m-2">
-                    <a class="nav-link text-capitalize line linportfolio position-relative" href="#portfolio">works</a>
-                  </li>
-                  <li class="nav-item m-2">
-                    <a class="nav-link text-capitalize line lincliens position-relative" href="#testimonial">clients</a>
-                  </li>
-                  <li class="nav-item m-2">
-                    <a class="nav-link text-capitalize line linteam position-relative" href="#team">team</a>
-                  </li>
-                  <li class="nav-item m-2">
-                    <a class="nav-link text-capitalize line lincontact position-relative" href="#contact">contact</a>
-                  </li>
-
-                </ul>
-
-
-              </div>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-
-
-
-
-      <!---============+++  home  +++ ===========-->
-
-
-      <div class="center min-vh-100 d-flex justify-content-center align-items-center ">
-        <div class="caption text-center position-relative">
-          <h5 class=" text-white mb-4 ">Hello</h5>
-          <p>I Am </p>
-
-          <ul class="d-flex justify-content-between align-items-center ">
-            <li class=" d-flex justify-content-center align-items-center me-1"><a href="#"><i
-                  class="fa-brands fa-facebook-f"></i></a></li>
-            <li class=" d-flex justify-content-center align-items-center me-1"><a href="#"><i
-                  class="fa-brands fa-twitter"></i></a></li>
-            <li class=" d-flex justify-content-center align-items-center me-1"><a href="#"><i
-                  class="fa-brands fa-linkedin-in"></i></a></li>
-            <li class=" d-flex justify-content-center align-items-center me-1"><a href="#"><i
-                  class="fa-brands fa-behance"></i></a></li>
-            <li class=" d-flex justify-content-center align-items-center me-1"><a href="#"><i
-                  class="fa-brands fa-youtube"></i></a></li>
+  <nav class="navbar navbar-expand-lg navbar-dark" id="top">
+    <div class="container">
+      <a class="navbar-brand logo" href="#"><img src="images/pink.webp" alt="Brand Logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse position-relative" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Works</a>
+          </li>
+          <ul class="media">
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/MARIAMGERGES833">
+                <img src="images/icons8-github-24.png" alt="GitHub Icon" />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/mariam-gerges-583023288/">
+                <img src="images/icons8-linkedin-24.png" alt="LinkedIn Icon" />
+              </a>
+            </li>
+            <li class="nav-item mail">
+              <a class="nav-link" href="mailto:mariamgerges842@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/icons8-gmail-50.png" alt="Gmail Icon" />
+              </a>
+            </li>
           </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--================END NAV BAR======================-->
+
+
+
+
+    <!--================START HERO SECTION======================-->
+
+  <header>
+<div class="container">
+    <div class="hero">
+      <div class="row rowHero">
+        <div class="col-md-7" id="left-column">
+          <div class="caption">
+            <p class="mb-4">Hello <img class="wavehand" src="images/icons8-waving-hand-emoji-48.png"
+                alt="Waving Hand" /> I'm</p>
+            <h1 class="mb-4">Mariam Gerges</h1>
+            <p class="mb-4">Full Stack Developer</p>
+            <button class="btn button-main me-2 mb-3">Contact me</button>
+            <a class="btn button-trans  mb-3" href="Mariam's_Resume.pdf" download>Download CV</a>
+          </div>
+        </div>
+        <div class="col-md-5 logos position-relative d-flex align-items-center justify-content-center"
+          id="right-column">
+          <div class="position-relative">
+            <div class="starback"></div>
+            <img class="imghero"
+              src="images/fun-3d-illustration-cartoon-teenage-girl-with-rain-gear-removebg-preview.png"
+              alt="Cartoon Teenage Girl" />
+
+            <img class="logo logoHTML" src="images/logo/html-logo.png" alt="HTML Logo" />
+            <img class="logo logoCSS" src="images/logo/css-logo.png" alt="CSS Logo" />
+            <img class="logo logob" src="images/logo/bootstrap.png" alt="Bootstrap Logo" />
+            <img class="logo logoJS" src="images/logo/javasript.png" alt="JavaScript Logo" />
+            <img class="logo logojquery" src="images/logo/jquery.png" alt="jQuery Logo" />
+            <img class="logo logoSASS" src="images/logo/sass-logo.png" alt="SASS Logo" />
+            <img class="logo logoAng" src="images/logo/angular-logo.png" alt="Angular Logo" />
+            <img class="logo logoNODE" src="images/logo/nodejs-logo.png" alt="Node.js Logo" />
+            <img class="logo logoMONGO" src="images/logo/mongodb-logo.png" alt="MongoDB Logo" />
+            <img class="logo logomysql" src="images/logo/mysql-logo.png" alt="MySQL Logo" />
+            <img class="logo logographQL" src="images/logo/graphql-logo.png" alt="GraphQL Logo" />
+          </div>
         </div>
       </div>
     </div>
+  </div>
   </header>
+    <!--================END HERO SECTION======================-->
+
+  <a class="up" id="btnUp" href="#top"><img src="images/up1.png" alt="go to up of page"></a>
 
 
-  <!---============+++ START About  SECTION +++ ===========-->
+  <!--================START ABOUT SECTION======================-->
 
-  <section id="about" class="about my-5">
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="item position-relative ">
-            <img class="w-100 ps-4 pb-4 pe-1" src="img/hero.jpg" alt="photo of jerry daniels" />
+  <section id="about" class="about  d-flex align-items-center justify-content-center">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="item  hidden col-left">
+            <img class="mariam w-100" src="images/mariam.png" alt="Mariam Gerges" />
           </div>
         </div>
-        <div class="col-lg-7 mt-lg-0 mt-4">
-          <div class="content">
-            <h3 class="p-0">About Me.</h3>
-            <p class="text-black mb-3" style="--bs-text-opacity:0.5;">UI / UX DESIGNER & WEB DEVELOPER</p>
-            <p class="text-black mb-4" style="--bs-text-opacity:0.5;">I am <strong>Jerry Daniels</strong> Lorem Ipsum is
-              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever It has survived not only five centuries, but also the leap into electronic but also the
-              leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-              the release of Letraset sheets containing</p>
-
-            <div class="progress  " role="progressbar" aria-label="Example with label" aria-valuenow="25"
-              aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar flex-row justify-content-start align-items-center rounded-2 cont "
-                style="width: 95%">
-                <div class="ms-2 "> Web Design</div>
-                <div class="ms-auto me-2">95%</div>
-              </div>
-            </div>
-            <div class="progress  " role="progressbar" aria-label="Example with label" aria-valuenow="25"
-              aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar flex-row justify-content-start align-items-center rounded-2 cont"
-                style="width: 80%">
-                <div class="ms-2 ">Branding</div>
-                <div class="ms-auto me-2">80%</div>
-              </div>
-            </div>
-            <div class="progress  " role="progressbar" aria-label="Example with label" aria-valuenow="25"
-              aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar flex-row justify-content-start align-items-center rounded-2 cont"
-                style="width: 90%">
-                <div class="ms-2 ">Development</div>
-                <div class="ms-auto me-2">90%</div>
-              </div>
-            </div>
-
-            <a download class="btn btn-dark" title="curriculum vitae" href="download.htm">Download C.V</a>
-            <a class="btn btn-outline-dark" href="#contact">Contact me</a>
-
-          </div>
+        <div class="col-md-7 offset-md-1 text-start hidden col-middle">
+          <div>
+            <h2>About Me</h2>
+              <ul>
+                <li>Hi, I'm <span>Mariam Gerges.</span></li>
+                <li>I work as a Front-End Developer specializing in Angular.</li>
+                <li>I graduated from Route Academy with a focus on web development.</li>
+                <li>I have a passion for creating beautiful, responsive, and user-friendly websites.</li>
+                <li>In addition to Angular, I am proficient in HTML, CSS, JavaScript, and TypeScript.</li>
+                <li>I enjoy learning new technologies and staying updated with industry trends.</li>
+                <li>When I'm not coding, you can find me reading tech blogs, exploring new places, or experimenting with new recipes.</li>
+                <li>Feel free to check out my projects and get in touch if you'd like to collaborate.</li>
+              </ul>
+               </div>
+          
         </div>
       </div>
     </div>
+ 
   </section>
+  <!--================END ABOUT SECTION======================-->
 
 
 
+  <!--================START WORKS SECTION======================-->
 
-
-  <!---============+++ START services SECTION +++ ===========-->
-
-  <section id="services" class="services py-5">
-    <div class="container text-center">
-      <div class="title my-5 d-inline-block">
-        <h2>services.</h2>
-      </div>
-
-
-      <div class="row mt-2 gy-4">
-        <div class="col-lg-4">
-          <div class="box p-4 bg-white rounded-2 ">
-            <span class="my-4 mx-auto"><i class="fa-solid fa-laptop"></i></span>
-            <h6 class="mb-3">Web Design</h6>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="box p-4 bg-white rounded-2 ">
-            <span class="my-4 mx-auto"><i class="fa-solid fa-bullhorn"></i></span>
-            <h6>Branding </h6>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="box p-4 bg-white rounded-2 ">
-            <span class="my-4 mx-auto"><i class="fa-solid fa-umbrella"></i></span>
-            <h6>Development </h6>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="box p-4 bg-white rounded-2 ">
-            <span class="my-4 mx-auto"><i class="fa-regular fa-gem"></i></span>
-            <h6>Creative Design </h6>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="box p-4 bg-white rounded-2 ">
-            <span class="my-4 mx-auto"><i class="fa-solid fa-tv"></i></span>
-            <h6>Fully Responsive </h6>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="box p-4 bg-white rounded-2 ">
-            <span class="my-4 mx-auto"><i class="fa-solid fa-camera"></i></span>
-            <h6>Retina Ready </h6>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!---============+++ START portfolio SECTION +++ ===========-->
-  <section id="portfolio" class="portfolio py-5">
-    <div class="container text-center">
-      <div class="title my-5 d-inline-block">
-        <h2>Portfolio.</h2>
-      </div>
-
-      <ul class="nav nav-pills mb-3 nav-underline justify-content-center" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
-            type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-Brand-tab" data-bs-toggle="pill" data-bs-target="#pills-Brand"
-            type="button" role="tab" aria-controls="pills-Brand" aria-selected="false">Brand</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-Design-tab" data-bs-toggle="pill" data-bs-target="#pills-Design"
-            type="button" role="tab" aria-controls="pills-Design" aria-selected="false">Design</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-Graphic-tab" data-bs-toggle="pill" data-bs-target="#pills-Graphic"
-            type="button" role="tab" aria-controls="pills-Graphic" aria-selected="false">Graphic</button>
-        </li>
-
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <!--+++button all+++-->
-        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
-          tabindex="0">
-          <div class="row gy-4">
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/1.jpg" alt="contact wire" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                        class="fa-solid fa-link-slash"></i></a >
-                        
-                          <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                           data-bs-toggle="modal" 
-                          data-bs-target="#exampleModal">
-                          <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </button></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/2.jpg" alt="book" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                   
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/3.jpg" alt="device" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                   
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/4.jpg" alt="lamp" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/5.jpg" alt="ruler" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/6.jpg" alt="pens and calculator" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-
-        </div>
-        <!--+++button Brand+++-->
-        <div class="tab-pane fade" id="pills-Brand" role="tabpanel" aria-labelledby="pills-Brand-tab" tabindex="0">
-          <div class="row gy-4">
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/4.jpg" alt="lamp" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/6.jpg" alt="pens and calculator" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-        <!--+++button Design+++-->
-        <div class="tab-pane fade" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab" tabindex="0">
-          <div class="row gy-4">
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/2.jpg" alt="book" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/5.jpg" alt="ruler" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-          </div>
-        </div>
-        <!--+++button Graphic+++-->
-        <div class="tab-pane fade" id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab" tabindex="0">
-          <div class="row gy-4">
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/1.jpg" alt="contact wire" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/3.jpg" alt="device" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                    
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-md-6 col-lg-4">
-              <div class="box">
-                <img class="w-100" src="img/5.jpg" alt="ruler" />
-                <div class="layer d-flex align-items-center justify-content-center flex-column">
-                  <h5>WEB DESIGN </h5>
-                  <div class="icon d-flex align-items-center justify-content-center"><a href="#"><i
-                    class="fa-solid fa-link-slash"></i></a >
-                   
-                      <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center"
-                       data-bs-toggle="modal" 
-                      data-bs-target="#exampleModal">
-                      <i class="fa-solid fa-magnifying-glass-plus"></i>
-                    </button></div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-          </div>
-        </div>
-
-      </div>
-
-
-
-
-    </div>
-  </section>
-
-
-
-
-
-  <!---============+++ START testimonial SECTION +++ ===========-->
-
-  <section id="testimonial" class="testimonial py-5">
-    <div class="container text-center">
-      <div class="title my-5 d-inline-block">
-        <h2>Testimonials.</h2>
-      </div>
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="box">
-              <img src="img/1 (1).jpg" alt="photo of Alex Smith" />
-              <div class="item">
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a
-                  galley of type and scrambled it to make a type specimen book. </p>
-                <h5>Alex Smith </h5>
-                <span>Envato Customer </span>
-              </div>
-
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <img src="img/1 (1).jpg" alt="photo of Alex Smith" />
-              <div class="item">
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a
-                  galley of type and scrambled it to make a type specimen book. </p>
-                <h5>Alex Smith </h5>
-                <span>Envato Customer </span>
-              </div>
-
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <img src="img/1 (1).jpg" alt="photo of Alex Smith" />
-              <div class="item">
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a
-                  galley of type and scrambled it to make a type specimen book. </p>
-                <h5>Alex Smith </h5>
-                <span>Envato Customer </span>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="carousel-indicators position-static">
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-  <!---============+++ START number SECTION +++ ===========-->
-  <div class="number py-5">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-3 ">
-          <div class="box text-center mb-sm-4 mb-lg-0">
-            <i class="pb-3 fa-solid fa-people-group"></i>
-            <h3 class="pb-2">850</h3>
-            <p>Happy Customers </p>
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <div class="box text-center mb-sm-4 mb-lg-0">
-            <i class="pb-3 fa-solid fa-thumbs-up"></i>
-            <h3 class="pb-2">230</h3>
-            <p>Complete Projects </p>
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <div class="box text-center mb-sm-4 mb-lg-0">
-            <i class="pb-3 fa-solid fa-bullhorn"></i>
-            <h3 class="pb-2">9450</h3>
-            <p>Lines Of Code </p>
-          </div>
-        </div>
-        <div class="col-lg-3 ">
-          <div class="box text-center mb-sm-4 mb-lg-0">
-            <i class="pb-3 fa-solid fa-cloud-arrow-down"></i>
-            <h3 class="pb-2">780</h3>
-            <p>Files Downloaded </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <!---============+++ START team SECTION +++ ===========-->
-  <section id="team" class="team py-5">
-    <div class="container  text-center">
-      <div class="title my-5 d-inline-block">
-        <h2>Our Team.</h2>
-      </div>
-      <div class="row py-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="box">
-            <div class="card  border-0 rounded-0 rounded-bottom-3 bg-danger">
-              <div class="image overflow-hidden position-relative">
-                <img src="img/1 (2).jpg" class="w-100" alt="photo of John Doe ">
-                <div class="layer d-flex align-items-center justify-content-center">
-                  <ul class="d-flex align-items-center justify-content-center">
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body rounded-bottom-3">
-                <h4>John Doe </h4>
-                <p class="card-text">Front-End Developer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="box">
-            <div class="card  border-0 rounded-0 rounded-bottom-3 bg-danger">
-              <div class="image overflow-hidden position-relative">
-                <img src="img/2 (1).jpg" class="w-100" alt="photo of Dave Wood ">
-                <div class="layer d-flex align-items-center justify-content-center">
-                  <ul class="d-flex align-items-center justify-content-center">
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body rounded-bottom-3">
-                <h4>Dave Wood</h4>
-                <p class="card-text">Back-End Developer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="box">
-            <div class="card  border-0 rounded-0 rounded-bottom-3 bg-danger">
-              <div class="image overflow-hidden position-relative">
-                <img src="img/1 (2).jpg" class="w-100" alt="photo of John Doe ">
-                <div class="layer d-flex align-items-center justify-content-center">
-                  <ul class="d-flex align-items-center justify-content-center">
-                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body rounded-bottom-3">
-                <h4>John Doe </h4>
-                <p class="card-text">Front-End Developer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-  <!---============+++ START Contact Us. SECTION +++ ===========-->
-  <section id="contact" class="contact py-5">
-    <div class="container text-center">
-      <div class="title my-5 d-inline-block">
-        <h2>Contact Us.</h2>
-      </div>
-      <div class="row mt-3">
-        <div class="col-lg-4">
-          <div class="item  mx-2 mb-5  text-center d-flex flex-column align-items-center justify-content-center">
-            <span><i class="fa-solid fa-location-arrow"></i></span>
-            <h6>Address </h6>
-            <p>6834 Hollywood Blvd - Los Angeles CA </p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="item  mx-2 mb-5 text-center d-flex flex-column align-items-center justify-content-center">
-            <span><i class="fa-solid fa-envelope"></i></span>
-            <h6>Email </h6>
-            <p>Support@website.com </p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="item  mx-2 mb-5 text-center d-flex flex-column align-items-center justify-content-center">
-            <span><i class="fa-solid fa-phone"></i></span>
-            <h6>Phone </h6>
-            <p>+20 010 2517 8918 </p>
-          </div>
-        </div>
-      </div>
-
-      <form>
+  <section class="works pt-5 pb-5 d-flex align-items-center justify-content-center text-center" id="works">
+    <div class="container ">
+      <div class="text-center">
+        <h2 class="hidden">My Projects.</h2>
         <div class="row">
-          <div class="col-lg-6">
-            <input type="text" name="name" class="form-control" placeholder="Name" required>
+
+          <div class="col-md-4 hidden col-left">
+            <div class="item" id="image-container-1">
+              <img class="w-100 hover-img" src="images/projects/ecommerce1.png" alt="image of e-commerce of clothes" />
+
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a target="_blank" href="https://github.com/MARIAMGERGES833/E-commerce-web-site"> <img
+                  src="images/icons8-github-24.png" alt="GitHub Icon" /> </a>
+              <a target="_blank" href="https://ecommerce-angular-72pq.onrender.com"><img class="livep"
+                  src="images/livep.png" alt="live Icon" /></a>
+            </div>
           </div>
-          <div class="col-lg-6 mt-2 mt-lg-0">
-            <input type="Email" name="email" class="form-control" placeholder="Email" required>
+          <div class="col-md-4 hidden col-middle">
+
+            <div class="item" id="image-container-2">
+              <img class="w-100 hover-img" src="images/projects/oop1.png" alt="image of e-commerce of meals" />
+
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a target="_blank" href=" https://github.com/MARIAMGERGES833/Exam-OOP-API-MEALS"> <img
+                  src="images/icons8-github-24.png" alt="GitHub Icon" /> </a>
+              <a target="_blank" href="https://mariamgerges833.github.io/Exam-OOP-API-MEALS/"><img class="livep"
+                  src="images/livep.png" alt="live Icon" /></a>
+            </div>
           </div>
-          <div class="col-12 my-2">
-            <textarea name="message" class="form-control" placeholder="Message"></textarea>
+          <div class="col-md-4 hidden col-left">
+            <div class="item" id="image-container-3">
+              <img class="w-100 hover-img" src="images/belleChic/p1.png" alt="image of e-commerce of dresses" />
+
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a target="_blank" href="https://github.com/MARIAMGERGES833/BelleChic"> <img
+                  src="images/icons8-github-24.png" alt="GitHub Icon" /> </a>
+              <a target="_blank" href="https://belle-chic-lex.onrender.com"><img class="livep" src="images/livep.png"
+                  alt="live Icon" /></a>
+            </div>
           </div>
-          <button type="submit" class="btn btn-dark">Submit</button>
+          <div class="col-md-4 hidden col-left">
+            <div class="item" id="image-container-4">
+              <img class="w-100 hover-img" src="images/projects/framwork1.png" alt="" />
+
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a target="_blank" href="https://github.com/MARIAMGERGES833/Angular-Routing"> <img
+                  src="images/icons8-github-24.png" alt="GitHub Icon" /> </a>
+              <a target="_blank" href="https://angular-routing-69wm.vercel.app/#/home"><img class="livep"
+                  src="images/livep.png" alt="live Icon" /></a>
+            </div>
+          </div>
+          <div class="col-md-4 hidden col-middle">
+            <div class="item" id="image-container-5">
+              <img class="w-100 hover-img" src="images/projects/dev1.png" alt="" />
+
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a target="_blank" href="https://github.com/MARIAMGERGES833/Devfolio"> <img
+                  src="images/icons8-github-24.png" alt="GitHub Icon" /> </a>
+              <a target="_blank" href="https://mariamgerges833.github.io/Devfolio/"><img class="livep"
+                  src="images/livep.png" alt="live Icon" /></a>
+            </div>
+          </div>
+          <div class="col-md-4 hidden col-left">
+            <div class="item" id="image-container-6">
+              <img class="w-100 hover-img" src="images/happyflower/f1.png" alt="e-commerce og flower" />
+
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <a target="_blank" href="#"> <img src="images/icons8-github-24.png" alt="GitHub Icon" /> </a>
+              <a target="_blank" href="https://preview.lexmodo.com/?lexmodo_template_name=Happy%20Flowers"><img
+                  class="livep" src="images/livep.png" alt="live Icon" /></a>
+            </div>
+          </div>
+
         </div>
-      </form>
+      </div>
     </div>
-    
-
-
-
   </section>
 
 
+    <!--================END WORKS SECTION======================-->
 
 
-  <!---============+++ end SECTION +++ ===========-->
-
-  <div class="end py-4 text-center">
-    <p>Copy Right 2018 &copy; By Daniels All Rights Reserved</p>
-  </div>
 
 
-<!--modaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal-->
-<!-- Button trigger modal -->
+  <!--================START FOOTER======================-->
 
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down">
-    <div class="modal-content ">
-      <div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-
-<!--===========================carousel-->
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active" >
-      <img class="w-100 d-block" src="img/1.jpg" alt="contact wire"  />
+  <footer>
+    <div class="end pt-3 pb-3 text-center text-light">
+      <a class="logo" href="#"><img src="images/pink.webp" alt="Brand Logo" /></a>
+      <ul class="media">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/MARIAMGERGES833">
+            <img src="images/icons8-github-24.png" alt="GitHub Icon" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/mariam-gerges-583023288/">
+            <img src="images/icons8-linkedin-24.png" alt="LinkedIn Icon" />
+          </a>
+        </li>
+        <li class="nav-item mail">
+          <a class="nav-link" href="mailto:mariamgerges842@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src="images/icons8-gmail-50.png" alt="Gmail Icon" />
+          </a>
+        </li>
+      </ul>
+      <p>Designed by<a class=" ps-2 text-light text-decoration-none" href="https://bootstrapmade.com/">Mariam Gerges</a>
+      </p>
     </div>
-    <div class="carousel-item"  >
-      <img class="w-100 d-block" src="img/2.jpg" alt="book" />
-    </div>
-    <div class="carousel-item">
-      <img class="w-100 d-block" src="img/3.jpg" alt="device" />
-    </div>    
-    <div class="carousel-item">
-      <img class="w-100 d-block" src="img/4.jpg" alt="lamp" />
-    </div>
-    <div class="carousel-item">
-      <img class="w-100 d-block" src="img/5.jpg" alt="ruler" />
-    </div>
-    <div class="carousel-item">
-      <img class="w-100 d-block" src="img/6.jpg" alt="pens and calculator" />
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+  </footer>
 
-
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
+ <!--================END FOOTER======================-->
 
 
 
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/index.js"></script>
+
 </body>
 
 </html>
