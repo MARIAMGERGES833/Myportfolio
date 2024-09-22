@@ -546,7 +546,8 @@ header{
       
         & .item::before {
             // left: 33px;
-            // width: 75%;                
+            // width: 75%;   
+            display: none;             
         }
         text-align: center;
         & .row>div:nth-child(1){

@@ -405,6 +405,9 @@ header {
     box-shadow: 0px 10px 20px #C34249;
     text-align: center;
   }
+  .about .item::before {
+    display: none;
+  }
   .about .row > div:nth-child(1) {
     margin-bottom: 50px;
   }
